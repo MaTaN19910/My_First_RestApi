@@ -1,0 +1,23 @@
+Started by user [8mha:////4JU4ziuvvPvSKmV4LZ/vuPD9FufEolPUZn9B52OP3EopAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mMatan
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/flaskapp
+The recommended git tool is: NONE
+using credential 3fd4ba12-83e3-4c1a-9431-1e3b8d93cb05
+Cloning the remote Git repository
+Cloning repository https://github.com/MaTaN19910/My_First_RestApi.git
+ > git init /var/lib/jenkins/workspace/flaskapp # timeout=10
+Fetching upstream changes from https://github.com/MaTaN19910/My_First_RestApi.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/MaTaN19910/My_First_RestApi.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/MaTaN19910/My_First_RestApi.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 6f01aae0ca39d5b59f1a24e4173946b954d01ffb (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6f01aae0ca39d5b59f1a24e4173946b954d01ffb # timeout=10
+Commit message: "new flask"
+First time build. Skipping changelog.
+Finished: SUCCESS
